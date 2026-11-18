@@ -1,0 +1,7 @@
+transaction_id,customer_id,amount,currency,payment_status,validation_errors
+TX1003,C102,-500.0,INR,SUCCESS,invalid_amount
+TX1004,C103,,INR,SUCCESS,missing_amount
+TX1005,C104,900.0,USD,SUCCESS,invalid_currency
+TX1006,C105,200.0,INR,UNKNOWN,invalid_payment_status
+TX1008,C107,1500.0,INR,SUCCESS,duplicate_transaction_id
+TX1008,C108,250.0,INR,SUCCESS,duplicate_transaction_id

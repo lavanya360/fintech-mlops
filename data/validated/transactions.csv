@@ -1,0 +1,4 @@
+transaction_id,customer_id,amount,currency,payment_status
+TX1001,C100,500.0,INR,SUCCESS
+TX1002,C101,1200.0,INR,SUCCESS
+TX1007,C106,750.0,INR,FAILED
